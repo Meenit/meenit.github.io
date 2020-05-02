@@ -6,17 +6,17 @@
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
+    float: top;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 17px 18px;
     text-decoration: none;
     font-size: 17px;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #db0f00;
     color: black;
   }
   
@@ -25,3 +25,22 @@
     background-color: #ad0c00;
     color: white;
   }
+
+  body {
+    background: linear-gradient(to bottom, black, #120000) fixed;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+    
+  }
+  
+  .scp-list a {
+    font-size: xx-large;
+    color: white;
+  }
+
+  .scp-list ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
