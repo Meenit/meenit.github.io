@@ -40,8 +40,9 @@
 
   .scp-list ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 5px dashed white; 
   }
   
   .shadow {
@@ -54,3 +55,4 @@
   bottom: 0;
   width: 100%;
   }
+
